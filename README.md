@@ -1,7 +1,7 @@
 # BiConvBERT
 
 ## Our Vision
-- train a bilingual ConvBERT language model for German and English language
+- train a bilingual ConvBERT language model for German and English language - the advantage of such a builingual model is that you can mix free english datasets into your downsteam training to improve performance
 - model size should be "medium" - somewhere between base and large - we will interpolate the parameters
 - use a large and clean vocab so words are split into less tokens for faster prediction performance
 - use lower-case tokenizer but keep accents (umlauts)
