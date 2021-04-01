@@ -5,5 +5,9 @@
 - model size should be "medium" - somewhere between base and large - we will interpolate the parameters
 - do the training on GPUs instead of TPUs
 
+## Links
+- [ConvBERT Paper](https://arxiv.org/abs/2008.02496)
+- [ConvBERT GitHub](https://github.com/yitu-opensource/ConvBert)
+
 ## Impediments
 - we have credits for GPUs but ConvBERT has to be trained on TPUs
