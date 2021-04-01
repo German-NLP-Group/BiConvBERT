@@ -14,3 +14,9 @@
 
 ## Impediments
 - we have credits for GPUs but ConvBERT has to be trained on TPUs
+
+## Datasets
+- German Dataset
+  - Cleaned German CC from Philipp Reissel
+- English
+  - Google C4 (colossal cleaned common crawl): https://www.tensorflow.org/datasets/catalog/c4
