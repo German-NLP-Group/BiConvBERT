@@ -26,3 +26,6 @@
 - [ ] select and preprocess German corpus
 - [ ] select and preprocess English corpus
 - [ ] prepare vocab
+
+## Progress / News
+- **2021-04-02:** we add a PR for ConvBERT to be able to keep accents: [Add toggle to turn off `strip_accents`.](https://github.com/yitu-opensource/ConvBert/pull/17)
