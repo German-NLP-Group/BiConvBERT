@@ -20,3 +20,9 @@
   - Cleaned German CC from Philipp Reissel
 - English
   - Google C4 (colossal cleaned common crawl): https://www.tensorflow.org/datasets/catalog/c4
+
+## To-do
+- [ ] add ["strip_accents" PR from Electra](https://github.com/google-research/electra/pull/88) to ConvBERT
+- [ ] select and preprocess German corpus
+- [ ] select and preprocess English corpus
+- [ ] prepare vocab
