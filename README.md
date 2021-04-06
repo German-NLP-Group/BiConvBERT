@@ -15,11 +15,36 @@
 ## Impediments
 - we have credits for GPUs but ConvBERT has to be trained on TPUs
 
+
+
+## Paper with Bilingual Approaches 
+
+
+
+| Title                                                        | Languages        | Dataset size & split                                | Result                                                       | Links                                                        |
+| ------------------------------------------------------------ | ---------------- | --------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| GigaBERT: A Bilingual BERT for English and Arabic            | English & Arabic | Multiple Versions: largest: 6.1B (en) vs 4.3 B (ar) | Outperforms mBERT (no suprise as larger Data is used at Gigabert) and XLM-Rbase (this is an indicator that bilingual is superior to a multilingual) | https://arxiv.org/pdf/2004.14519v2.pdf                       |
+| Towards Fully Bilingual Deep Language Modeling               | English & Finish | 3.8 B Tokens (en) & 3.3 B Tokens (finish())         | Outperforms mBERT (92.34 vs 88.88)                           | https://arxiv.org/pdf/2010.11639.pdf                         |
+| Cross-Lingual Ability of Multilingual BERT: An Empirical Study |                  |                                                     | Couldn't draw a real concusion                               | https://openreview.net/pdf/1499e19238fd9d7ee8a9c7e7bb6f9e2c9e6a0adf.pdf |
+
+
+
 ## Datasets
+
 - German Dataset
   - Cleaned German CC from Philipp Reissel
 - English
   - Google C4 (colossal cleaned common crawl): https://www.tensorflow.org/datasets/catalog/c4
+  - C4 download without preprocessing: https://github.com/allenai/allennlp/discussions/5056
+
+
+
+## Training Runs
+
+| Run      | Ressources Neede (GPU Hours) | Dataset size & split                  | Eval Datasets | Results / Conclusions |
+| -------- | ---------------------------- | ------------------------------------- | ------------- | --------------------- |
+| ConvBERT | ???                          | 50/50: 100 GB German / 100 GB English |               |                       |
+|          |                              |                                       |               |                       |
 
 ## To-do
 - [ ] add ["strip_accents" PR from Electra](https://github.com/google-research/electra/pull/88) to ConvBERT
