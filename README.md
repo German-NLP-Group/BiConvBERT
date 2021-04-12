@@ -8,6 +8,10 @@
 - do the training on GPUs instead of TPUs
 - open-source it like [german-nlp-group/electra-base-german-uncased](https://huggingface.co/german-nlp-group/electra-base-german-uncased)
 
+## Progress / News
+- **2021-04-12:** hyperparameter planning for medium models started - see below
+- **2021-04-02:** we open a PR for ConvBERT to be able to keep accents: [Add toggle to turn off `strip_accents`.](https://github.com/yitu-opensource/ConvBert/pull/17)
+
 ## Links
 - [ConvBERT Paper](https://arxiv.org/abs/2008.02496)
 - [ConvBERT GitHub](https://github.com/yitu-opensource/ConvBert)
@@ -51,9 +55,7 @@
 - [ ] select and preprocess German corpus
 - [ ] select and preprocess English corpus
 - [ ] prepare vocab
-
-## Progress / News
-- **2021-04-02:** we open a PR for ConvBERT to be able to keep accents: [Add toggle to turn off `strip_accents`.](https://github.com/yitu-opensource/ConvBert/pull/17)
+- [ ] train a small model for testing
 
 ## Hyperparameter
 Hyperparameter | Small | Base | Large | Medium
