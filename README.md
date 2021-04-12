@@ -58,22 +58,22 @@
 ## Hyperparameter
 Hyperparameter | Small | Base | Large | Medium
 ---------------|-------|------|-------|-------
-Number of layers | 12 | 12 | 24 | ?
+Number of layers | 12 | 12 | 24 | 18
 Hidden Size | 256 | 768 | 1024 | ?
 FFN inner hidden size | 1024 | 3072 | 4096 | ?
-Attention heads | 4 | 12 | 16 | ?
-Attention head size | 64 | 64 | 64 | ?
+Attention heads | 4 | 12 | 16 | 14
+Attention head size | 64 | 64 | 64 | 64
 Embedding Size | 128 | 768 | 1024 | ?
 Generator Size | 1/4 | 1/3 | 1/4 | ?
 Mask percent | 15 | 15 | 25 | ?
-Learning Rate Decay | Linear | Linear | Linear | ?
-Warmup steps | 10000 | 10000 | 10000 | ?
-Learning Rate | 5e-4 | 2e-4 | 2e-4 | ?
-Adam epsilon | 1e-6 | 1e-6 | 1e-6 | ?
-Adam beta_1 | 0.9 | 0.9 | 0.9 | ?
-Adam beta_2 | 0.999 | 0.999 | 0.999 | ?
-Attention Dropout | 0.1 | 0.1 | 0.1 | ?
-Dropout | 0.1 | 0.1 | 0.1 | ?
-Weight Decay | 0.01 | 0.01 | 0.01 | ?
+Learning Rate Decay | Linear | Linear | Linear | Linear
+Warmup steps | 10000 | 10000 | 10000 | 10000
+Learning Rate | 5e-4 | 2e-4 | 2e-4 | 2e-4
+Adam epsilon | 1e-6 | 1e-6 | 1e-6 | 1e-6
+Adam beta_1 | 0.9 | 0.9 | 0.9 | 0.9
+Adam beta_2 | 0.999 | 0.999 | 0.999 | 0.999
+Attention Dropout | 0.1 | 0.1 | 0.1 | 0.1
+Dropout | 0.1 | 0.1 | 0.1 | 0.1
+Weight Decay | 0.01 | 0.01 | 0.01 | 0.1
 Batch Size | 128 | 256 | 2048 | ?
 Train Steps (BERT/ELECTRA) | 1.45M/1M | 1M/766K | 464K/400K | ?
