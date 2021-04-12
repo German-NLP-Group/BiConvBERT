@@ -60,7 +60,7 @@ Hyperparameter | Small | Base | Large | Medium
 ---------------|-------|------|-------|-------
 Number of layers | 12 | 12 | 24 | 18
 Hidden Size | 256 | 768 | 1024 | 896
-FFN inner hidden size | 1024 | 3072 | 4096 | ?
+FFN inner hidden size | 1024 | 3072 | 4096 | 3584
 Attention heads | 4 | 12 | 16 | 14
 Attention head size | 64 | 64 | 64 | 64
 Embedding Size | 128 | 768 | 1024 | ?
