@@ -64,8 +64,7 @@ FFN inner hidden size | 1024 | 3072 | 4096
 Attention heads | 4 | 12 | 16
 Attention head size | 64 | 64 | 64
 Embedding Size | 128 | 768 | 1024
-Generator Size (multiplier for hidden-size, | ? | ? | ?
-FFN-size, and num-attention-heads) | | |
+Generator Size | 1/4 | 1/3 | 1/4
 Mask percent | 15 | 15 | 25
 Learning Rate Decay | Linear | Linear | Linear
 Warmup steps | 10000 | 10000 | 10000
