@@ -54,3 +54,27 @@
 
 ## Progress / News
 - **2021-04-02:** we open a PR for ConvBERT to be able to keep accents: [Add toggle to turn off `strip_accents`.](https://github.com/yitu-opensource/ConvBert/pull/17)
+
+## Hyperparameter
+Hyperparameter | Small | Base | Large
+---------------|-------|------|------
+Number of layers | 12 | 12 | 24
+Hidden Size | 256 | 768 | 1024
+FFN inner hidden size | 1024 | 3072 | 4096
+Attention heads | 4 | 12 | 16
+Attention head size | 64 | 64 | 64
+Embedding Size | 128 | 768 | 1024
+Generator Size (multiplier for hidden-size, | ? | ? | ?
+FFN-size, and num-attention-heads) | | |
+Mask percent | 15 | 15 | 25
+Learning Rate Decay | Linear | Linear | Linear
+Warmup steps | 10000 | 10000 | 10000
+Learning Rate | 5e-4 | 2e-4 | 2e-4
+Adam $\epsilon$ | 1e-6 | 1e-6 | 1e-6
+Adam $\beta_1$ | 0.9 | 0.9 | 0.9
+Adam $\beta_2$ | 0.999 | 0.999 | 0.999
+Attention Dropout | 0.1 | 0.1 | 0.1
+Dropout | 0.1 | 0.1 | 0.1
+Weight Decay | 0.01 | 0.01 | 0.01
+Batch Size | 128 | 256 | 2048
+Train Steps (BERT/ELECTRA) | 1.45M/1M | 1M/766K | 464K/400K
