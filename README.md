@@ -18,7 +18,7 @@
 
 ## Impediments
 - we have credits for GPUs but ConvBERT has to be trained on TPUs
-- it might bring up problems when we train on multiple GPUs - see here https://github.com/yitu-opensource/ConvBert/issues/18
+- it might bring up problems when we train on multiple GPUs - see here https://github.com/yitu-opensource/ConvBert/issues/18 - https://github.com/stefan-it/europeana-bert/issues/5
 
 ## Paper with Bilingual Approaches 
 | Title                                                        | Languages        | Dataset size & split                                | Result                                                       | Links                                                        |
@@ -42,7 +42,7 @@
 
 ## To-do
 - [x] add ["strip_accents" PR from Electra](https://github.com/google-research/electra/pull/88) to ConvBERT
-- [ ] clarify multi GPU training - https://github.com/yitu-opensource/ConvBert/issues/18
+- [ ] clarify multi GPU training - https://github.com/yitu-opensource/ConvBert/issues/18 - https://github.com/stefan-it/europeana-bert/issues/5
 - [ ] select and preprocess German corpus
 - [ ] select and preprocess English corpus
 - [ ] prepare vocab
