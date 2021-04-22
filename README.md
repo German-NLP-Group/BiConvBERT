@@ -42,7 +42,7 @@
 
 ## To-do
 - [x] add ["strip_accents" PR from Electra](https://github.com/google-research/electra/pull/88) to ConvBERT
-- [ ] crarify multi GPU training - https://github.com/yitu-opensource/ConvBert/issues/18
+- [ ] clarify multi GPU training - https://github.com/yitu-opensource/ConvBert/issues/18
 - [ ] select and preprocess German corpus
 - [ ] select and preprocess English corpus
 - [ ] prepare vocab
