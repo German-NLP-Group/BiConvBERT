@@ -33,6 +33,7 @@
 - English
   - Google C4 (colossal cleaned common crawl): https://www.tensorflow.org/datasets/catalog/c4
   - C4 download without preprocessing: https://github.com/allenai/allennlp/discussions/5056
+  - see here "300GB in JSON format" https://github.com/allenai/allennlp/discussions/5056#discussion-3276674
 
 ## Training Runs
 | Run      | Ressources Neede (GPU Hours) | Dataset size & split                  | Eval Datasets | Results / Conclusions |
