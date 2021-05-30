@@ -43,10 +43,11 @@
 
 ## To-do
 - [x] add ["strip_accents" PR from Electra](https://github.com/google-research/electra/pull/88) to ConvBERT
-- [ ] clarify multi GPU training - https://github.com/yitu-opensource/ConvBert/issues/18 - https://github.com/stefan-it/europeana-bert/issues/5
+- [x] clarify multi GPU training - https://github.com/yitu-opensource/ConvBert/issues/18 - https://github.com/stefan-it/europeana-bert/issues/5
 - [ ] select and preprocess German corpus
 - [ ] select and preprocess English corpus
-- [ ] prepare vocab
+- [ ] prepare vocab / train tokenizer
+  - [SentencePieceBPETokenizer](https://github.com/huggingface/tokenizers/blob/master/bindings/python/py_src/tokenizers/implementations/sentencepiece_bpe.py)
 - [ ] train a small model for testing
 
 ## Hyperparameter (from Electra Paper)
